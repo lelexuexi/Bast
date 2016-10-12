@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,9 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     
+    TabBarController * tabVC = [[TabBarController alloc]init];
     
+    self.window.rootViewController = tabVC ;
     
     
     

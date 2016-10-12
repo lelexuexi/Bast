@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110CD2071D9B50EC00722C59 /* FlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 110CD2061D9B50EC00722C59 /* FlowView.m */; };
 		1126EF341D99F83B003EA5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126EF331D99F83B003EA5B8 /* main.m */; };
 		1126EF371D99F83B003EA5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126EF361D99F83B003EA5B8 /* AppDelegate.m */; };
 		1126EF3A1D99F83B003EA5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126EF391D99F83B003EA5B8 /* ViewController.m */; };
@@ -90,9 +91,14 @@
 		1126F20A1D9A140E003EA5B8 /* IDCardNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126F1EC1D9A140E003EA5B8 /* IDCardNumberValidator.m */; };
 		1126F20B1D9A140E003EA5B8 /* NSString+IDCardNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126F1EE1D9A140E003EA5B8 /* NSString+IDCardNumberValidator.m */; };
 		1126F20E1D9A1939003EA5B8 /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126F20D1D9A1939003EA5B8 /* UserDefaultsHelper.m */; };
+		117476211DAE189800D3F5C5 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117476201DAE189800D3F5C5 /* TabBarController.m */; };
+		117476241DAE18B700D3F5C5 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 117476231DAE18B700D3F5C5 /* HomeVC.m */; };
+		117476271DAE18EC00D3F5C5 /* BastNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117476261DAE18EC00D3F5C5 /* BastNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110CD2051D9B50EC00722C59 /* FlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowView.h; sourceTree = "<group>"; };
+		110CD2061D9B50EC00722C59 /* FlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowView.m; sourceTree = "<group>"; };
 		1126EF2F1D99F83B003EA5B8 /* Bast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1126EF331D99F83B003EA5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1126EF351D99F83B003EA5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -267,6 +273,12 @@
 		1126F1EE1D9A140E003EA5B8 /* NSString+IDCardNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IDCardNumberValidator.m"; sourceTree = "<group>"; };
 		1126F20C1D9A1939003EA5B8 /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
 		1126F20D1D9A1939003EA5B8 /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		1174761F1DAE189800D3F5C5 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		117476201DAE189800D3F5C5 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		117476221DAE18B700D3F5C5 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		117476231DAE18B700D3F5C5 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		117476251DAE18EC00D3F5C5 /* BastNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BastNavigationController.h; sourceTree = "<group>"; };
+		117476261DAE18EC00D3F5C5 /* BastNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BastNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +317,14 @@
 				1126EF361D99F83B003EA5B8 /* AppDelegate.m */,
 				1126EF381D99F83B003EA5B8 /* ViewController.h */,
 				1126EF391D99F83B003EA5B8 /* ViewController.m */,
+				1174761F1DAE189800D3F5C5 /* TabBarController.h */,
+				117476201DAE189800D3F5C5 /* TabBarController.m */,
+				117476251DAE18EC00D3F5C5 /* BastNavigationController.h */,
+				117476261DAE18EC00D3F5C5 /* BastNavigationController.m */,
+				117476221DAE18B700D3F5C5 /* HomeVC.h */,
+				117476231DAE18B700D3F5C5 /* HomeVC.m */,
+				110CD2051D9B50EC00722C59 /* FlowView.h */,
+				110CD2061D9B50EC00722C59 /* FlowView.m */,
 				1126EF3B1D99F83B003EA5B8 /* Main.storyboard */,
 				1126EF3E1D99F83B003EA5B8 /* Assets.xcassets */,
 				1126EF401D99F83B003EA5B8 /* LaunchScreen.storyboard */,
@@ -752,6 +772,7 @@
 				1126F1F21D9A140E003EA5B8 /* UIBarButtonItem+HDExtension.m in Sources */,
 				1126F1F41D9A140E003EA5B8 /* UIColor+HDExtension.m in Sources */,
 				1126F16F1D9A1348003EA5B8 /* SDWebImageDownloaderOperation.m in Sources */,
+				117476211DAE189800D3F5C5 /* TabBarController.m in Sources */,
 				1126F17F1D9A1348003EA5B8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				1126F1771D9A1348003EA5B8 /* UIView+WebCacheOperation.m in Sources */,
 				1126F1F91D9A140E003EA5B8 /* NSObject+YGTool.m in Sources */,
@@ -763,6 +784,7 @@
 				1126F1571D9A1348003EA5B8 /* MJRefreshAutoFooter.m in Sources */,
 				1126F2051D9A140E003EA5B8 /* NSData+AES.m in Sources */,
 				1126F17B1D9A1348003EA5B8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				117476241DAE18B700D3F5C5 /* HomeVC.m in Sources */,
 				1126F2091D9A140E003EA5B8 /* BankAccountCheckClass.m in Sources */,
 				1126F16B1D9A1348003EA5B8 /* SDImageCache.m in Sources */,
 				1126F1F81D9A140E003EA5B8 /* UIView+HDExtension.m in Sources */,
@@ -805,6 +827,8 @@
 				1126F1591D9A1348003EA5B8 /* MJRefreshComponent.m in Sources */,
 				1126F16A1D9A1348003EA5B8 /* NSData+ImageContentType.m in Sources */,
 				1126F2031D9A140E003EA5B8 /* ZSBPublicClassOC.m in Sources */,
+				110CD2071D9B50EC00722C59 /* FlowView.m in Sources */,
+				117476271DAE18EC00D3F5C5 /* BastNavigationController.m in Sources */,
 				1126F1721D9A1348003EA5B8 /* UIButton+WebCache.m in Sources */,
 				1126F15F1D9A1348003EA5B8 /* MJRefreshBackGifFooter.m in Sources */,
 				1126F1541D9A1348003EA5B8 /* AFURLRequestSerialization.m in Sources */,
@@ -984,6 +1008,7 @@
 				1126EF481D99F83C003EA5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
